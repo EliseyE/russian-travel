@@ -1,0 +1,23 @@
+.content__places {
+  box-sizing: border-box;
+  padding: 0 11.563%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1126px) {
+  .content__places {
+    padding: 0 4.688%;
+  }
+}
+
+@media screen and (max-width: 986px) {
+  .content__places {
+    padding: 0 3.125%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .content__places {
+    padding: 0;
+  }
+}

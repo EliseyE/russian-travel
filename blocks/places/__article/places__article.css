@@ -1,0 +1,19 @@
+.places__article {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+/* Вопрос к дизайнеру про отступы то 26px при 1280, то 27px при 1024*/
+
+@media screen and (max-width: 986px) {
+  .places__article {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .places__article {
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,36 @@
+.lead {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #fff;
+  width: 76.875%;
+  min-height: 1005px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 1126px) {
+  .lead {
+    width: 90.625%;
+    min-height: 962px;
+  }
+}
+
+@media screen and (max-width: 986px) {
+  .lead {
+    width: 100%;
+    min-height: 862px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .lead {
+    min-height: 735px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .lead {
+    min-height: 406px;
+  }
+}
