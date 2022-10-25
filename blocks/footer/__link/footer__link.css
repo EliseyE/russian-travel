@@ -3,7 +3,9 @@
   padding: 0;
   color: #fff;
   text-decoration: none;
+  box-sizing: border-box;
   block-size: fit-content;
+  display: inline-block;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
@@ -14,7 +16,7 @@
   opacity: .8;
 }
 
-@media screen and (max-width: 679px) {
+@media screen and (max-width: 767px) {
   .footer__link {
     font-size: 24px;
     line-height: 1;

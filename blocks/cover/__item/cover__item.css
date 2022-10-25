@@ -8,12 +8,8 @@
   align-items: center;
   box-sizing: border-box;
   padding: 20px;
-  background-image: url('../../../images/__cover-background.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: center / cover no-repeat url('../../../images/__cover-background.png');
   position: relative;
-
 }
 
 .cover__item::before {

@@ -1,3 +1,17 @@
 .content__lead {
-  margin: 0 auto;
+  margin: 0;
+  padding: 0 11.563%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  .content__lead {
+    padding: 0 4.688%;
+  }
+}
+
+@media screen and (max-width: 986px) {
+  .content__lead {
+    padding: 0;
+  }
 }

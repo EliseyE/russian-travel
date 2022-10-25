@@ -1,4 +1,4 @@
-.places__article {
+.places__text {
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -7,13 +7,13 @@
 /* Вопрос к дизайнеру про отступы то 26px при 1280, то 27px при 1024*/
 
 @media screen and (max-width: 986px) {
-  .places__article {
+  .places__text {
     gap: 25px;
   }
 }
 
 @media screen and (max-width: 570px) {
-  .places__article {
+  .places__text {
     padding: 0 16px;
   }
 }

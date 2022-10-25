@@ -6,6 +6,8 @@
   font-size: 18px;
   line-height: 1.22;
   transition: .5s;
+  max-width: fit-content;
+  display: inline-block;
 }
 
 .places__link:hover {

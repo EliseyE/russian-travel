@@ -16,12 +16,12 @@
 
 @media screen and (max-width: 986px) {
   .places__place {
-    column-gap: 3.889%;
+    column-gap: 3.646%;
     grid-template-columns: minmax(47.222%, 340px) 1fr;
   }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 767px) {
   .places__place {
     grid-template-columns: 1fr;
     row-gap: 32px;
